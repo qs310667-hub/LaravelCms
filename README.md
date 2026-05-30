@@ -46,6 +46,22 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
+## Steps to install
+
+1. Download Zip.
+2. Extract in htdocs.
+3. Open terminal where extracted project is.
+4. composer install
+5. composer dump-autoload
+6. npm install
+7. npm run build
+8. php artisan storage:link
+9. php artisan optimize:clear
+10. Open .envexample file and copy all text and create new .env file and paste there and save.
+11. Create database applaravelblog Import .sql file available in sql folder.
+12. php artisan serve
+13. Website url http://127.0.0.1:8000/ credientials for user login user@gmail.com:user1234 and admin panel url http://127.0.0.1:8000/admin crediencials for login blog@gmail.com:12345678.
+
 ## Code of Conduct
 
 In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
