@@ -58,7 +58,7 @@ Thank you for considering contributing to the Laravel framework! The contributio
 8. php artisan storage:link
 9. php artisan optimize:clear
 10. Open .envexample file and copy all text and create new .env file and paste there and save.
-11. Create database applaravelblog Import .sql file available in sql folder.
+11. Create database applaravelblog Import .sql file available in root folder.
 12. php artisan serve
 13. Website url http://127.0.0.1:8000/ credientials for user login user@gmail.com:user1234 and admin panel http://127.0.0.1:8000/admin blog@gmail.com:12345678.
 
